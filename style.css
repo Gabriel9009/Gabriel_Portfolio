@@ -161,7 +161,7 @@ nav.scrolled {
     letter-spacing: 0.1em; text-transform: uppercase;
     animation: fadeInUp 0.8s ease both;
 }
-.hero-tag-dot { width: 6px; height: 6px; background: var(--accent-emerald); border-radius: 50%; animation: pulse 2s ease infinite; }
+/* .hero-tag-dot { width: 6px; height: 6px; background: var(--accent-emerald); border-radius: 50%; animation: pulse 2s ease infinite; } */
 @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(0.8); } }
 .hero-name {
     font-family: var(--font-display); font-size: clamp(3rem, 6vw, 5.5rem);
