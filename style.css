@@ -206,27 +206,27 @@ nav.scrolled {
   .hero-avatar-wrap {
     position: relative; width: 420px; height: 420px; margin: 0 auto;
   }
-  .hero-avatar-ring {
+  /* .hero-avatar-ring {
     position: absolute; inset: -20px; border-radius: 50%;
     border: 1px solid rgba(0, 212, 255, 0.15);
     animation: rotateSlow 20s linear infinite;
-  }
-  .hero-avatar-ring::before {
+  } */
+  /* .hero-avatar-ring::before {
     content: ''; position: absolute; top: 10%; right: -4px;
     width: 8px; height: 8px; background: var(--accent-cyan); border-radius: 50%;
     box-shadow: 0 0 12px var(--accent-cyan);
-  }
-  .hero-avatar-ring-2 {
+  } */
+  /* .hero-avatar-ring-2 {
     position: absolute; inset: -50px; border-radius: 50%;
     border: 1px dashed rgba(124, 58, 255, 0.1);
     animation: rotateSlow 35s linear infinite reverse;
-  }
-  .hero-avatar-ring-2::before {
+  } */
+  /* .hero-avatar-ring-2::before {
     content: ''; position: absolute; bottom: 20%; left: -4px;
     width: 6px; height: 6px; background: var(--accent-violet); border-radius: 50%;
     box-shadow: 0 0 10px var(--accent-violet);
-  }
-  @keyframes rotateSlow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  } */
+  /* @keyframes rotateSlow { from { transform: rotate(0deg); } to { transform: rotate(360deg); } } */
   .hero-avatar-img {
     width: 100%; height: 100%; border-radius: 50%;
     background: linear-gradient(135deg, var(--bg-surface) 0%, var(--bg-deep) 100%);
@@ -234,10 +234,10 @@ nav.scrolled {
     display: flex; align-items: bottom; justify-content: right;
     font-size: 120px; position: relative; overflow: hidden;
   }
-  .hero-avatar-img::before {
+  /* .hero-avatar-img::before {
     content: ''; position: absolute; inset: 0; border-radius: 50%;
     background: radial-gradient(circle at 30% 30%, rgba(0, 212, 255, 0.08), transparent 60%);
-  }
+  } */
   .hero-avatar-img img{
   width: 100%;
   height: 100%;
