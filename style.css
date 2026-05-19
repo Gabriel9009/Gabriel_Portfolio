@@ -1,25 +1,42 @@
-:root{
-  --bg-main: #0f172a;
-  --bg-surface: #111827;
-  --card-bg: #1e293b;
+:root {
+    --bg-void: #0f172a;
+    --bg-deep: #111827;
+    --bg-surface: #1e293b;
+    --bg-card: rgba(30, 41, 59, 0.7);
+    --bg-glass: rgba(255, 255, 255, 0.03);
 
-  --accent-primary: #6366f1;
-  --accent-secondary: #06b6d4;
+    --border-subtle: rgba(255,255,255,0.08);
+    --border-glow: rgba(99,102,241,0.3);
 
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
+    --accent-cyan: #06b6d4;
+    --accent-violet: #6366f1;
+    --accent-emerald: #10b981;
+    --accent-amber: #f59e0b;
 
-  --border: rgba(255,255,255,0.08);
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --text-muted: #64748b;
 
-  --shadow-sm: 0 4px 12px rgba(0,0,0,0.12);
-  --shadow-lg: 0 10px 30px rgba(0,0,0,0.2);
+    --gradient-primary: linear-gradient(135deg, #06b6d4 0%, #6366f1 100%);
+    --gradient-hero: linear-gradient(
+        135deg,
+        rgba(6,182,212,0.12) 0%,
+        rgba(99,102,241,0.12) 50%,
+        transparent 100%
+    );
 
-  --font-main: 'Inter', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+    --shadow-glow: 0 0 40px rgba(6,182,212,0.15);
+    --shadow-card: 0 20px 60px rgba(0,0,0,0.35);
 
-  --radius: 16px;
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
 }
-
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
 html { scroll-behavior: smooth; font-size: 16px; }
